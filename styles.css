@@ -1,0 +1,123 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 form \{\
+  width: 70vw;\
+  margin: 0 auto;\
+\}\
+\
+\
+\
+\
+\
+\
+body \{\
+  background-image: url(https://wallpapercave.com/wp/wp9445378.jpg);\
+  background-color: #eed0c8;\
+  background-repeat: no-repeat;\
+  background-position: bottom;\
+  font-family: sans-serif;\
+  color: #705d56;\
+\}\
+\
+\
+fieldset.field1\{\
+  background-color: #f3f4f5;\
+  opacity: 0.9;\
+  border: 0;\
+  border-bottom: 1px solid #d49d8e;\
+ // padding: 2em 5em;\
+  border-radius:10px;\
+  \
+\}\
+\
+h1 \{\
+  color: #683b2b;\
+  text-align: center;\
+  font-size: 2.7em;\
+\}\
+p \{\
+  color: #936e4e;\
+ text-align:center;\
+\}\
+\
+fieldset.field1 p \{\
+  color: #936e4e;\
+ text-align:center;\
+ font-weight: bold;\
+\}\
+\
+img \{\
+  object-fit: cover;\
+  width: 100%;\
+  max-width: 200px;\
+  max-height: 200px;\
+  border-radius: 10px;\
+\}\
+\
+input, label \{\
+  //display: block;\
+ // margin: 0 0 0.5rem 0;\
+\
+\
+\}\
+\
+input[type="submit"] \{\
+  display: block;\
+  margin: 1em auto;\
+  font-size: 3em;\
+  min-width: 500px;\
+\}\
+\
+input[type="text"]\{\
+  font-size: 1.1rem;\
+  display: block;\
+  border-radius:10px;\
+  border: none;\
+  min-width: 300px;\
+  width: 70%;\
+\}\
+\
+input[type="email"]\{\
+  font-size: 1.1rem;\
+  display: block;\
+  border-radius:10px;\
+  border: none;\
+  min-width: 300px;\
+  width: 70%;\
+\}\
+\
+input[type="number"]\{\
+  font-size: 1.1rem;\
+  display: block;\
+  border-radius:10px;\
+  border: none;\
+  min-width: 250px;\
+  width: 70%;\
+\}\
+\
+textarea\{\
+  border-radius:10px;\
+\}\
+\
+.choice \{\
+  display: block;\
+  margin: 0.5rem 0;\
+\}\
+\
+\
+input\{\
+  margin: 10px 0 0 0;\
+  padding-top: 2px;\
+\}\
+\
+input.inline \{\
+ width: inline;\
+  margin: 0 0.5em 0 0;\
+  vertical-align: middle;\
+\}\
+}
