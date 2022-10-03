@@ -10,6 +10,7 @@ body {
   background-position: bottom;
   font-family: 'Courier New', monospace, sans-serif;
   color: #705d56;
+  max-width: 721px;
 }
 
 
