@@ -3,17 +3,12 @@ form {
   margin: 0 auto;
 }
 
-
-
-
-
-
 body {
   background-image: url(https://wallpapercave.com/wp/wp9445378.jpg);
   background-color: #eed0c8;
   background-repeat: no-repeat;
   background-position: bottom;
-  font-family: sans-serif;
+  font-family: 'Courier New', monospace, sans-serif;
   color: #705d56;
 }
 
