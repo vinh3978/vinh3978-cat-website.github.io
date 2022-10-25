@@ -4,24 +4,26 @@ form {
 }
 
 body {
-  background-image: url(https://wallpapercave.com/wp/wp9445378.jpg);
-  background-color: #eed0c8;
+  background-image: url(https://data.whicdn.com/images/268494218/original.jpg);
+  background-color: #fed6d6;
   background-repeat: no-repeat;
-  background-position: bottom;
-  font-family: 'Courier New', monospace, sans-serif;
+  background-position: bottom right;
+  font-family: "Fuzzy Bubbles", cursive;
   color: #705d56;
-  max-width: 721px;
 }
 
+::placeholder {
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 0.8rem;
+}
 
-fieldset.field1{
+fieldset.field1 {
   background-color: #f3f4f5;
-  opacity: 0.9;
   border: 0;
   border-bottom: 1px solid #d49d8e;
- // padding: 2em 5em;
-  border-radius:10px;
-  
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
 }
 
 h1 {
@@ -31,13 +33,13 @@ h1 {
 }
 p {
   color: #936e4e;
- text-align:center;
+  text-align: center;
 }
 
 fieldset.field1 p {
   color: #936e4e;
- text-align:center;
- font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
 img {
@@ -46,13 +48,17 @@ img {
   max-width: 200px;
   max-height: 200px;
   border-radius: 10px;
+  opacity: 1;
 }
 
-input, label {
+img.unactive {
+  opacity: 0.5;
+}
+
+input,
+label {
   //display: block;
- // margin: 0 0 0.5rem 0;
-
-
+  // margin: 0 0 0.5rem 0;
 }
 
 input[type="submit"] {
@@ -62,35 +68,35 @@ input[type="submit"] {
   min-width: 500px;
 }
 
-input[type="text"]{
+input[type="text"] {
   font-size: 1.1rem;
   display: block;
-  border-radius:10px;
+  border-radius: 10px;
   border: none;
   min-width: 300px;
   width: 70%;
 }
 
-input[type="email"]{
+input[type="email"] {
   font-size: 1.1rem;
   display: block;
-  border-radius:10px;
+  border-radius: 10px;
   border: none;
   min-width: 300px;
   width: 70%;
 }
 
-input[type="number"]{
+input[type="number"] {
   font-size: 1.1rem;
   display: block;
-  border-radius:10px;
+  border-radius: 10px;
   border: none;
   min-width: 250px;
   width: 70%;
 }
 
-textarea{
-  border-radius:10px;
+textarea {
+  border-radius: 10px;
 }
 
 .choice {
@@ -98,14 +104,14 @@ textarea{
   margin: 0.5rem 0;
 }
 
-
-input{
+input {
   margin: 10px 0 0 0;
   padding-top: 2px;
 }
 
 input.inline {
- width: inline;
+  width: inline;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
+
