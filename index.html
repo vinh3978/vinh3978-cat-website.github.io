@@ -1,82 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UFT-8">
-    //<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="How was your experience with our cats an bunny?"/>
+    <meta charset="UFT-8" />
     <title>How was your experience with our cats (and bunny) ?</title>
-    <link rel="stylesheet" href="styles.css">
-    </head>
-   <body>
-     <h1 id="title"> How was your experience with our cats? </h1>
-      <p id="description">Thank you for playing with our cats. Fill out the surveyet us know your experience!</p>
-  <form id="survey-form" >
-    <fieldset class="field1">
-      <h2>Tell us a little bit about yourself</h2>
-      <label id="name-label"  class="choice" >Name: <input type="text" id="name" required placeholder="Write your name here.." /></label>
-      <label id="number-label"  class="choice" >Age <input type="number" min="1" max="120" required placeholder="Let us know your age.." id="number" > </label>
-      <label id="email-label"  class="choice"> Email <input id="email" type="email" required placeholder="Your email please.." > </label>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Noto+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">How was your experience with our cats?</h1>
+    <p id="description">
+      Thank you for playing with our cats. Fill out the survey to tell us your
+      experience!
+    </p>
+    <form id="survey-form">
+      <fieldset class="field1">
+        <h2>Tell us a little bit about yourself</h2>
+        <label id="name-label" class="choice"
+          >Name:
+          <input
+            type="text"
+            id="name"
+            required
+            placeholder="Write your name here.."
+        /></label>
+        <label id="number-label" class="choice"
+          >Age
+          <input
+            type="number"
+            min="1"
+            max="120"
+            required
+            placeholder="Let us know your age.."
+            id="number"
+          />
+        </label>
+        <label id="email-label" class="choice">
+          Email
+          <input
+            id="email"
+            type="email"
+            required
+            placeholder="Your email please.."
+          />
+        </label>
       </fieldset>
 
       <fieldset class="field1">
-      <label>Which one of the following is the most accurate to describe you? (select all that apply) </label>
-      <label class="choice" >
-      <input type="checkbox" value="female" class="inline" />
-      Female
-      </label>
-      
-      <label class="choice" ><input type="checkbox" value="male" class="inline" /> Male<label>
-      <label class="choice" ><input type="checkbox" value="non-binary" class="inline" /> Non-binary<label>
-      <label class="choice" ><input type="checkbox" value="transgender" class="inline" /> Transgender<label>
-      <label class="choice" ><input type="checkbox" value="intersex" class="inline"/> Intersex<label>
-      <label class="choice"><input type="checkbox" value="type-their-own" class="inline"
-      class="choice" /> Let me type <input type="text"><label>
-      
-      <label class="choice" ><input type="checkbox" value="not-available" class="inline"
-       /> I prefer not to say<label>
-</fieldset>
-<fieldset class="field1">
-        <label class="choice">Do you have a pet at home?
-          </label>
-          <label class="choice"  >
-            <input type="radio" name="have-pet" value="no" > No :( </label>
-            <label class="choice"  >
-            <input type="radio" name="have-pet" value="yes" > YASS, they are ..
-            
-            <select id="dropdown"> 
-              <option>Dog</option>
-              <option>Cat</option>
-              <option>Fish</option>
-              <option>Reptile</option>
-              <option>Other</option>
-              </select>
-              </label>
-              <label class="choice" >If you selected Other, can you tell us what they are? <input type="text"/> </label>
-          </label>
-      </fieldset>
-      <fieldset class="field1">
-        Which one(s) of our cats (and/or bunny) make you happy today?
-        <label class="choice" >
-        <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.15752-9/304467144_408738704641462_3050771064468470912_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=7KlkoE5eBRMAX9mV26W&_nc_ht=scontent-yyz1-1.xx&oh=03_AVLDR4k2pnt6LWmEjaaPXAEkLZOtskyP6WmpyKmnfyPLUA&oe=63597039" width="200px">
-        <img src="https://scontent.fyto1-1.fna.fbcdn.net/v/t39.30808-6/281354116_7499211000150414_7059086084342514782_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=eXLvC1_7PgIAX-SnC9H&_nc_ht=scontent.fyto1-1.fna&oh=00_AT9PBEerSqKkYq74oMNZULZdZvKus1XH8oLBqD-kpk2vzg&oe=633D43E7" width="200px">
-        <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.15752-9/308582964_508908524577365_2535791026000422949_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=0L0TRWkhVoUAX-3Jrey&_nc_ht=scontent-yyz1-1.xx&oh=03_AVLQqpVBkC2HTsDLSwtgSR_els8bYrFiWgHIxHWOKi_Z1w&oe=6358C101" width="200px">
-        <img src="https://scontent.fyto1-2.fna.fbcdn.net/v/t1.15752-9/308323788_1109394359969016_1705994150140948875_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=-pWtAMoB55cAX-ZRCSY&_nc_ht=scontent.fyto1-2.fna&oh=03_AVJ-MtbL8YKFRUWIR8z1OgTRJo_RtPnUUZzHNbkmKqgSIQ&oe=635940D6" width="200px">
-</label>
+        <label
+          >Which one of the following is the most accurate to describe you?
+          (select all that apply)
+        </label>
         <label class="choice">
-         <input type="checkbox" value="me" class="inline"> Mè (Black sesame) </label>
-    <label class="choice" >  <input type="checkbox" value="mo" class="inline">    Mỡ (Fattie) </label>
-    <label class="choice">     <input type="checkbox" value="dua" class="inline"> Dừa (Coconut) </label>
-     <label class="choice">    <input type="checkbox" value="maple" class="inline"> Maple</label>
-          </label>
-          <label class="choice"> Can you briefly tell us what did you do with the cats or bunny?  </label>
-<textarea rows="10" cols="80"></textarea>
-        </fieldset>
+          <input type="checkbox" value="female" class="inline" />
+          Female
+        </label>
 
-        
+        <label class="choice"
+          ><input type="checkbox" value="male" class="inline" /> Male</label
+        >
+        <label class="choice"
+          ><input type="checkbox" value="non-binary" class="inline" />
+          Non-binary</label
+        >
+        <label class="choice"
+          ><input type="checkbox" value="transgender" class="inline" />
+          Transgender</label
+        >
+        <label class="choice"
+          ><input type="checkbox" value="intersex" class="inline" />
+          Intersex</label
+        >
+        <label class="choice"
+          ><input
+            type="checkbox"
+            value="type-their-own"
+            class="inline choice" />
+          Let me type <input type="text"
+        /></label>
 
-<input id="submit" type="submit" value="Send!"/>
+        <label class="choice"
+          ><input type="checkbox" value="not-available" class="inline" /> I
+          prefer not to say</label
+        >
+      </fieldset>
 
+      <fieldset class="field1">
+        <label class="choice">Do you have a pet at home? </label>
+        <label class="choice">
+          <input type="radio" name="have-pet" value="no" /> No :(
+        </label>
+        <label class="choice">
+          <input type="radio" name="have-pet" value="yes" /> YASS, they are ..
+
+          <select id="dropdown">
+            <option>Dog</option>
+            <option>Cat</option>
+            <option>Fish</option>
+            <option>Reptile</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label class="choice"
+          >If you selected Other, can you tell us what they are?
+          <input type="text" />
+        </label>
+      </fieldset>
+
+      <fieldset class="field1">
+        Which one(s) of our cats (and/or bunny) make you happy today?<br />
+
+        <label for="me"
+          ><img
+            class="choicePet unactive"
+            src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.15752-9/304467144_408738704641462_3050771064468470912_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=7KlkoE5eBRMAX9mV26W&_nc_ht=scontent-yyz1-1.xx&oh=03_AVLDR4k2pnt6LWmEjaaPXAEkLZOtskyP6WmpyKmnfyPLUA&oe=63597039"
+            width="200px"
+        /></label>
+        <label for="mo"
+          ><img
+            class="choicePet unactive"
+            src="https://cdn.glitch.global/dd6e7c55-0b7a-49c6-b59e-976ee7214c98/IMG_0013.jpg?v=1666488323945"
+            width="200px"
+        /></label>
+        <label for="dua"
+          ><img
+            class="choicePet unactive"
+            src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.15752-9/308582964_508908524577365_2535791026000422949_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=0L0TRWkhVoUAX-3Jrey&_nc_ht=scontent-yyz1-1.xx&oh=03_AVLQqpVBkC2HTsDLSwtgSR_els8bYrFiWgHIxHWOKi_Z1w&oe=6358C101"
+            width="200px"
+        /></label>
+        <label for="maple"
+          ><img
+            class="choicePet unactive"
+            src="https://scontent.fyto1-2.fna.fbcdn.net/v/t1.15752-9/308323788_1109394359969016_1705994150140948875_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=-pWtAMoB55cAX-ZRCSY&_nc_ht=scontent.fyto1-2.fna&oh=03_AVJ-MtbL8YKFRUWIR8z1OgTRJo_RtPnUUZzHNbkmKqgSIQ&oe=635940D6"
+            width="200px"
+        /></label>
+        <script src="script.js"></script>
+        <label for="me" class="choice"
+          ><input type="checkbox" id="me" value="me" class="inline" /> Mè (Black
+          sesame)
+        </label>
+        <label for="mo" class="choice">
+          <input type="checkbox" id="mo" value="mo" class="inline" /> Mỡ
+          (Fattie)
+        </label>
+        <label for="dua" class="choice">
+          <input type="checkbox" id="dua" value="dua" class="inline" /> Dừa
+          (Coconut)
+        </label>
+        <label for="maple" class="choice">
+          <input type="checkbox" id="maple" value="maple" class="inline" />
+          Maple</label
+        >
+        <label class="choice"> Can you briefly tell us your experience? </label>
+        <textarea rows="10" cols="50"></textarea>
+      </fieldset>
+
+      <input id="submit" type="submit" value="Send!" />
     </form>
-    
-     </body> 
-  </html>
+  </body>
+</html>
+
